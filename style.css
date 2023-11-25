@@ -4,12 +4,11 @@ body {
     color: black; /* Dark Blue */
     margin: 0;
     padding: 0;
-    width: 2400px;
 }
 
 header {
     text-align: center;
-    background-color: maroon; /* Dark Blue */
+    background-color: maroon; /* Dark Maroon */
     color: #ffffff; /* White */
     padding: 20px;
 }
@@ -42,9 +41,18 @@ section p {
 }
 
 .category {
-    background-color: maroon; /* Light Gray */
+    background-color: white; /* Dark Maroon */
     padding: 10px;
     margin: 10px 0;
+}
+
+button {
+    color: white; /* Dark Blue */
+    background-color: darkblue; /* Dark Maroon */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 footer {
@@ -52,6 +60,9 @@ footer {
     padding: 10px;
     background-color: maroon; /* Dark Maroon */
     color: #ffffff; /* White */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 footer p {
