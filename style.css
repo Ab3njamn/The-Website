@@ -48,7 +48,7 @@ nav {
 }
 
 /* Media Query for Mobile View */
-@media only screen and (max-width: 768px) {
+@media only screen {
     .nav-links {
         display: none; /* Hide the links on small screens */
         flex-direction: column; /* Stack the links vertically */
@@ -65,7 +65,7 @@ nav {
     }
 
     .nav-links a:hover {
-        border-bottom: 2px solid #d4af37;
+        border-bottom: 2px solid #000;
     }
 
     .menu-icon {
