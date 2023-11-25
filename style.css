@@ -1,5 +1,60 @@
-/* Your CSS styles go here */
 body {
-    background-color: #f2f2f2; /* Example color */
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; /* White */
+    color: #1a1a1a; /* Dark Blue */
+    margin: 0;
+    padding: 0;
 }
 
+header {
+    text-align: center;
+    background-color: #1a1a1a; /* Dark Blue */
+    color: #ffffff; /* White */
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    color: #1a1a1a; /* Dark Blue */
+}
+
+section h3 {
+    color: #1a1a1a; /* Dark Blue */
+}
+
+section p {
+    color: #1a1a1a; /* Dark Blue */
+}
+
+.category {
+    background-color: #f2f2f2; /* Light Gray */
+    padding: 10px;
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2d0c25; /* Dark Maroon */
+    color: #ffffff; /* White */
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Add more specific styles for additional sections if needed */
