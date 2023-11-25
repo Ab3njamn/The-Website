@@ -7,14 +7,14 @@ body {
 
 nav {
     background-color: #fff5e1; /* Cream color */
-    border-bottom: 2px solid #d4af37; /* Dark Goldenrod for the bottom border */
+    border-bottom: 1px solid #000; /* Dark for the bottom border */
 }
 
 .navbar-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 2400px;
     margin: 0 auto;
     padding: 10px;
 }
