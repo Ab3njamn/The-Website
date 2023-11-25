@@ -1,94 +1,41 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: white; /* White */
-    color: black; /* Dark Blue */
+    background-color: #fff5e1; /* Cream color */
     margin: 0;
     padding: 0;
 }
 
-header {
-    text-align: center;
-    background-color: maroon; /* Dark Maroon */
-    color: #ffffff; /* White */
-    padding: 20px;
+nav {
+    background-color: #fff5e1; /* Cream color */
+    border-bottom: 2px solid #d4af37; /* Dark Goldenrod for the bottom border */
 }
 
-header h1 {
-    margin: 0;
-}
-
-header img {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    margin-top: 20px;
-}
-
-section {
-    padding: 20px;
-}
-
-section h2 {
-    color: #1a1a1a; /* Dark Blue */
-}
-
-section h3 {
-    color: #1a1a1a; /* Dark Blue */
-}
-
-section p {
-    color: #1a1a1a; /* Dark Blue */
-}
-
-.category {
-    background-color: white; /* Dark Maroon */
-    padding: 10px;
-    margin: 10px 0;
-}
-
-button {
-    color: white; /* Dark Blue */
-    background-color: darkblue; /* Dark Maroon */
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: maroon; /* Dark Maroon */
-    color: #ffffff; /* White */
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-/* Existing styles remain unchanged */
-
-.footer-links {
+.navbar-container {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    max-width: 800px;
+    align-items: center;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 10px;
 }
 
-.social-media,
-.newsletter {
-    flex-basis: 48%; /* Adjust as needed for spacing */
+.brand {
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
-/* Add more specific styles for additional sections if needed */
-
-footer p {
-    margin: 0;
+.nav-links {
+    display: flex;
 }
 
-@media (max-width: 600px) {
-    header img {
-        max-width: 100%;
-    }
+.nav-links a {
+    color: #1a1a1a; /* Dark Blue */
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    border-bottom: 2px solid transparent; /* Initial transparent border bottom */
 }
 
-/* Add more specific styles for additional sections if needed */
+.nav-links a:hover {
+    border-bottom: 2px solid #d4af37; /* Dark Goldenrod on hover */
+}
