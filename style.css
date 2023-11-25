@@ -24,6 +24,12 @@ nav {
     font-weight: bold;
 }
 
+.menu-icon {
+    font-size: 1.5em;
+    cursor: pointer;
+    display: none; /* Hide the menu icon by default */
+}
+
 .nav-links {
     display: flex;
 }
@@ -38,4 +44,30 @@ nav {
 
 .nav-links a:hover {
     border-bottom: 2px solid #d4af37; /* Dark Goldenrod on hover */
+}
+
+/* Media Query for Mobile View */
+@media only screen and (max-width: 768px) {
+    .nav-links {
+        display: none; /* Hide the links on small screens */
+        flex-direction: column; /* Stack the links vertically */
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #fff5e1; /* Cream color */
+        z-index: 1;
+    }
+
+    .nav-links a {
+        border-bottom: 2px solid transparent;
+    }
+
+    .nav-links a:hover {
+        border-bottom: 2px solid #d4af37;
+    }
+
+    .menu-icon {
+        display: block; /* Show the menu icon on small screens */
+    }
 }
