@@ -47,6 +47,78 @@ nav {
     border-bottom: 2px solid #d4af37; /* Dark Goldenrod on hover */
 }
 
+.container {
+    display: flex;
+    height: 100vh; /* 100% of viewport height */
+}
+
+.logo-container {
+    flex: 1; /* Takes 1/2 of the available space */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content-container {
+    flex: 1; /* Takes 1/2 of the available space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2; /* Light gray background color */
+}
+
+h1 {
+    color: #1a1a1a; /* Dark Blue */
+}
+
+p {
+    color: #666666; /* Gray */
+    max-width: 80%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-container {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.create-button {
+    background-color: #4caf50; /* Green */
+    color: white;
+}
+
+.learn-button {
+    background-color: #3498db; /* Blue */
+    color: white;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Additional styles for other sections can be added below */
+
+
 /* Media Query for Mobile View */
 @media (max-width: 328px%) {
     display: block;}
