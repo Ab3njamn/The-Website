@@ -22,6 +22,7 @@ nav {
 .brand {
     font-size: 1.5em;
     font-weight: bold;
+    color: #6f5134;
 }
 
 .menu-icon {
@@ -35,7 +36,7 @@ nav {
 }
 
 .nav-links a {
-    color: #1a1a1a; /* Dark Blue */
+    color: #6f5134; /* Dark Blue */
     text-decoration: none;
     padding: 10px;
     margin: 0 10px;
