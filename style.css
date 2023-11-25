@@ -48,7 +48,7 @@ nav {
 }
 
 /* Media Query for Mobile View */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 100%) {
     /* Styles for mobile view */
 }
 
