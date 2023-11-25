@@ -1,14 +1,15 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #ffffff; /* White */
-    color: #1a1a1a; /* Dark Blue */
+    background-color: white; /* White */
+    color: black; /* Dark Blue */
     margin: 0;
     padding: 0;
+    width: 2400px;
 }
 
 header {
     text-align: center;
-    background-color: #1a1a1a; /* Dark Blue */
+    background-color: maroon; /* Dark Blue */
     color: #ffffff; /* White */
     padding: 20px;
 }
@@ -41,7 +42,7 @@ section p {
 }
 
 .category {
-    background-color: #f2f2f2; /* Light Gray */
+    background-color: maroon; /* Light Gray */
     padding: 10px;
     margin: 10px 0;
 }
@@ -49,7 +50,7 @@ section p {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #2d0c25; /* Dark Maroon */
+    background-color: maroon; /* Dark Maroon */
     color: #ffffff; /* White */
 }
 
