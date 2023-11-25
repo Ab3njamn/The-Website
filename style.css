@@ -69,4 +69,10 @@ footer p {
     margin: 0;
 }
 
+@media (max-width: 600px) {
+    header img {
+        max-width: 100%;
+    }
+}
+
 /* Add more specific styles for additional sections if needed */
