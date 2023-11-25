@@ -64,6 +64,22 @@ footer {
     bottom: 0;
     width: 100%;
 }
+/* Existing styles remain unchanged */
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.social-media,
+.newsletter {
+    flex-basis: 48%; /* Adjust as needed for spacing */
+}
+
+/* Add more specific styles for additional sections if needed */
 
 footer p {
     margin: 0;
