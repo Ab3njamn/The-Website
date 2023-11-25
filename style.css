@@ -48,7 +48,15 @@ nav {
 }
 
 /* Media Query for Mobile View */
-@media only screen and (max-width: 100%) {
-    /* Styles for mobile view */
+@media (max-width: 328px%) {
+    display: block;}
+}
+
+@media (max-width: 568px%) {
+    display: none;}
+}
+
+@media (max-width: 768px%) {
+    display: none;}
 }
 
